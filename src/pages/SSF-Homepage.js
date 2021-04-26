@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
+import pic1 from '../assets/images/SSF-Homepage/1_SSF_Explorations.png';
 import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
@@ -46,34 +46,66 @@ const IndexPage = () => (
             all a manager wishes to do is approve them at once.
           </p>
 
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
+          <br></br>
+
+          <h3 className="major">Definition</h3>
+          <p>
+            Our PM team defined 3 use cases for us to address from the Home
+            page:
+            <ol>
+              <li>
+                <em>Toggle View</em> - Ability to toggle between detail view and
+                overview.
+              </li>
+              <li>
+                <em>Grouping</em> – Ability to view different categories from
+                within a group.
+              </li>
+              <li>
+                <em>Bulk Action</em> – Ability to take action on multiple items
+                at once.
+              </li>
+            </ol>
+          </p>
+
+          <br></br>
+
+          <h3 className="major">Explorations</h3>
+          <p>
+            Extensive user research had already been done by the team to
+            understand the user. After reviewing the documentation and past
+            iterations, I started my own explorations (mobile-first).
+          </p>
+
+          <br></br>
+
+          <h3 className="major">Explorations</h3>
+          <p>
+            Extensive user research had already been done by the team to
+            understand the user. After reviewing the documentation and past
+            iterations, I started my own explorations (mobile-first).
+          </p>
+          <p>
+            For each use case, I ran 3 iterations of design, ensuring I got
+            proper feedback from PMs, Accessibility, Engineering, and UA.
+          </p>
+
+          <br></br>
+
+          <h3 className="major">Specs Creation</h3>
+          <p>
+            After sharing 3 iterations of explorations with the team and getting
+            their feedback, I started to create specs on Zeplin, choosing key
+            screens from the prototype for engineering to reference during
+            implementation.
+          </p>
+
+          <br></br>
+
+          <h3 className="major">Next Steps</h3>
+          <p>
+            This project is still ongoing, but I’m happy to talk more about it!
+          </p>
         </div>
       </div>
     </section>
