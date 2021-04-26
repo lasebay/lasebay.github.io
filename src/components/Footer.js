@@ -5,7 +5,7 @@ export default function Footer() {
     <section id="footer">
       <div className="inner">
         <h2 className="major">Get in touch</h2>
-        <p>
+        {/* <p>
           Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
           Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
           egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
@@ -31,12 +31,20 @@ export default function Footer() {
               <input type="submit" value="Send Message" />
             </li>
           </ul>
-        </form>
+        </form> */}
         <ul className="contact">
           <li className="fa-home">{config.address}</li>
 
           <li className="fa-phone">{config.phone}</li>
 
+          {/* {config.socialLinks.map(social => {
+            const { icon, url } = social;
+            return (
+              <li className={`${icon}`} key={url}>
+                <a href={url}>{url}</a>
+              </li>
+            );
+          })} */}
           {config.socialLinks.map(social => {
             const { icon, url } = social;
             return (

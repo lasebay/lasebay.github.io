@@ -16,7 +16,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-globe"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -26,19 +26,16 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/SSF-Homepage" className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Today</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I’m a UX designer at SAP SuccessFactors, reimagining the HR
+              experience straight from its home page.
             </p>
-            <a href="/#" className="special">
+            <a href="/SSF-Homepage" className="special">
               Learn more
             </a>
           </div>
@@ -47,26 +44,23 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/CUX-Guidelines" className="image">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Jun 2020 - Jan 2021</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I was part of the team behind SAP's design system (Fiori),
+              transforming the guidelines for conversational user experience.
             </p>
-            <a href="/#" className="special">
+            <a href="/CUX-Guidelines" className="special">
               Learn more
             </a>
           </div>
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style3">
+      {/* <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
             <img src={pic3} alt="" />
@@ -85,9 +79,9 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="four" className="wrapper alt style1">
+      {/* <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Vitae phasellus</h2>
           <p>
@@ -158,7 +152,7 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
     </section>
   </Layout>
 );
