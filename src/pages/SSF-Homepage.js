@@ -76,15 +76,6 @@ const IndexPage = () => (
             understand the user. After reviewing the documentation and past
             iterations, I started my own explorations (mobile-first).
           </p>
-
-          <br></br>
-
-          <h3 className="major">Explorations</h3>
-          <p>
-            Extensive user research had already been done by the team to
-            understand the user. After reviewing the documentation and past
-            iterations, I started my own explorations (mobile-first).
-          </p>
           <p>
             For each use case, I ran 3 iterations of design, ensuring I got
             proper feedback from PMs, Accessibility, Engineering, and UA.
