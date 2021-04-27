@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic1 from '../assets/images/SSF-Homepage/1_SSF_Explorations.png';
-import pic5 from '../assets/images/pic05.jpg';
+// import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>

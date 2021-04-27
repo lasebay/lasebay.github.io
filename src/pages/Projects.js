@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import pic1 from '../assets/images/pic04.jpg';
+import pic2 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -30,7 +30,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/SSF-Homepage" className="image">
-                <img src={pic4} alt="" />
+                <img src={pic1} alt="" />
               </a>
               <h3 className="major">SuccessFactors Homepage</h3>
               <p>
@@ -43,7 +43,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/CUX-Guidelines" className="image">
-                <img src={pic5} alt="" />
+                <img src={pic2} alt="" />
               </a>
               <h3 className="major">CUX Guidelines</h3>
               <p>

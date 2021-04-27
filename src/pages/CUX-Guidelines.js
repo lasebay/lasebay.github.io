@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import pic1 from '../assets/images/CUX-Guidelines/1_CUX_old_vs_new.png';
-import pic5 from '../assets/images/pic05.jpg';
+// import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
