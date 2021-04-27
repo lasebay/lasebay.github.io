@@ -16,10 +16,16 @@ module.exports = {
     {
       name: 'ssf-homepage',
       url: '/projects/ssf-homepage',
+      hashtags:
+        '#product-design #interaction-design  #inclusive-design  #responsive-web #ios',
+      tools: 'Sketch, Abstract, Invision, Zeplin',
+      summary:
+        'As part of the SuccessFactors Homepage team, I simplified the experience for manager users to work through several approvals and other team engagements straight from the Homepage. This project is a work in progress for release later in 2021.',
     },
     {
       name: 'cux-guidelines',
       url: '/projects/cux-guidelines',
+      hashtags: '#product-design #conversational-design #ios',
     },
   ],
 

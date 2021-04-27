@@ -3,6 +3,8 @@ import React from 'react';
 import Layout from '../../components/Layout';
 // import pic5 from '../assets/images/pic05.jpg';
 
+import config from '../../../config';
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -17,18 +19,14 @@ const IndexPage = () => (
         <div className="inner">
           <h3 className="major">Summary</h3>
           <p>
-            <i>
-              #product-design #responsive-web #ios #android
-              <br></br>
-              Tools: Sketch, Abstract, Invision, Zeplin
-            </i>
+            <code>{config.projects[0].hashtags}</code>
           </p>
           <p>
-            As part of the SuccessFactors Homepage team, I simplified the
-            experience for manager users to work through several approvals and
-            other team engagements straight from the Homepage. This project is a
-            work in progress for release later in 2021.
+            <i>
+              <b>Tools</b>: {config.projects[0].tools}
+            </i>
           </p>
+          <p>{config.projects[0].summary}</p>
 
           <h3 className="major">Background</h3>
           <p>

@@ -4,6 +4,8 @@ import Layout from '../../components/Layout';
 import pic1 from '../../assets/images/CUX-Guidelines/1_CUX_old_vs_new.png';
 // import pic5 from '../assets/images/pic05.jpg';
 
+import config from '../../../config';
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -19,7 +21,7 @@ const IndexPage = () => (
           <h3 className="major">Summary</h3>
           <p>
             <i>
-              #product-design #conversational-design #ios
+              {config.projects[1].hashtags}
               <br></br>
               Tools: Sketch, Abstract
             </i>
