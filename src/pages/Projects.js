@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import pic1 from '../assets/images/SSF-Homepage/SSF_Homepage.png';
 import pic2 from '../assets/images/CUX-Guidelines/CUX_Homepage.png';
 
+import config from '../../config';
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -29,7 +31,7 @@ const IndexPage = () => (
 
           <section className="features">
             <article>
-              <a href="/SSF-Homepage" className="image">
+              <a href={config.projects[0].url} className="image">
                 <img src={pic1} alt="" />
               </a>
               <h3 className="major">SuccessFactors Homepage</h3>
@@ -37,12 +39,12 @@ const IndexPage = () => (
                 <i>#product-design #responsive-web #ios #android</i>
               </p>
               <p>Reimagining SuccessFactors Homepage</p>
-              <a href="/SSF-Homepage" className="special">
+              <a href={config.projects[0].url} className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/CUX-Guidelines" className="image">
+              <a href={config.projects[1].url} className="image">
                 <img src={pic2} alt="" />
               </a>
               <h3 className="major">CUX Guidelines</h3>
@@ -50,7 +52,7 @@ const IndexPage = () => (
                 <i>#product-design #conversational-design #ios</i>
               </p>
               <p>Streamlining SAP's Conversational UX Guidelines</p>
-              <a href="/CUX-Guidelines" className="special">
+              <a href={config.projects[1].url} className="special">
                 Learn more
               </a>
             </article>

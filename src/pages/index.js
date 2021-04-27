@@ -6,6 +6,7 @@ import pic1 from '../assets/images/SSF-Homepage/SSF_Logo.png';
 import pic2 from '../assets/images/CUX-Guidelines/2_Chatbot-AI_R_purple.png';
 
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -21,7 +22,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/SSF-Homepage" className="image">
+          <a href={config.projects[0].url} className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -30,7 +31,7 @@ const IndexPage = () => (
               I’m a UX designer at SAP SuccessFactors, reimagining the HR
               experience straight from its home page.
             </p>
-            <a href="/SSF-Homepage" className="special">
+            <a href={config.projects[0].url} className="special">
               Learn more
             </a>
           </div>
@@ -39,7 +40,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/CUX-Guidelines" className="image">
+          <a href={config.projects[1].url} className="image">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
@@ -48,7 +49,7 @@ const IndexPage = () => (
               I was part of the team behind SAP's design system (Fiori),
               transforming the guidelines for conversational user experience.
             </p>
-            <a href="/CUX-Guidelines" className="special">
+            <a href={config.projects[1].url} className="special">
               Learn more
             </a>
           </div>

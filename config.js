@@ -10,6 +10,19 @@ module.exports = {
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Lase Bayudan',
   subHeading: 'UX Designer exploring people, technology, and nature',
+
+  // projects
+  projects: [
+    {
+      name: 'ssf-homepage',
+      url: '/projects/ssf-homepage',
+    },
+    {
+      name: 'cux-guidelines',
+      url: '/projects/cux-guidelines',
+    },
+  ],
+
   // social
   socialLinks: [
     {

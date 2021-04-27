@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 // import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
