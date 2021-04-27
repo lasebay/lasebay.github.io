@@ -25,7 +25,10 @@ module.exports = {
     {
       name: 'cux-guidelines',
       url: '/projects/cux-guidelines',
-      hashtags: '#product-design #conversational-design #ios',
+      hashtags: '#user research #ux-writing #conversational-design #ios',
+      tools: 'Mural, Sketch, Abstract',
+      summary:
+        'As part of the central design team responsible for maintaining SAP’s design system Fiori, I updated the conversational UX guidelines to produce content that’s actionable and easy the navigate.',
     },
   ],
 

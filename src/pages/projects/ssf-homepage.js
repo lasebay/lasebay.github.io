@@ -28,6 +28,8 @@ const IndexPage = () => (
           </p>
           <p>{config.projects[0].summary}</p>
 
+          <br></br>
+
           <h3 className="major">Background</h3>
           <p>
             The SuccessFactors Homepage is the first thing users see upon
@@ -45,7 +47,7 @@ const IndexPage = () => (
 
           <br></br>
 
-          <h3 className="major">Definition</h3>
+          <h3 className="major">Define</h3>
           <p>
             Our PM team defined 3 use cases for us to address from the Home
             page:
@@ -67,33 +69,50 @@ const IndexPage = () => (
 
           <br></br>
 
-          <h3 className="major">Explorations</h3>
+          <h3 className="major">Ideate</h3>
           <p>
             Extensive user research had already been done by the team to
-            understand the user. After reviewing the documentation and past
-            iterations, I started my own explorations (mobile-first).
-          </p>
-          <p>
-            For each use case, I ran 3 iterations of design, ensuring I got
-            proper feedback from PMs, Accessibility, Engineering, and UA.
+            understand the user. After reviewing the documentation and the past
+            release, I started exploring mobile-first concepts.
           </p>
 
           <br></br>
 
-          <h3 className="major">Specs Creation</h3>
+          <h3 className="major">Prototype</h3>
           <p>
-            After sharing 3 iterations of explorations with the team and getting
-            their feedback, I started to create specs on Zeplin, choosing key
-            screens from the prototype for engineering to reference during
-            implementation.
+            For each use case, I ran 3 iterations of prototypes. Each time, I
+            gathered feedback from various perspectives in product,
+            accessibility, engineering, and user assistance.
+          </p>
+
+          <br></br>
+
+          <h3 className="major">Test</h3>
+          <p>
+            Now, I’m ready to test the prototypes with some users. I’m currently
+            running usability tests to assess how users accomplish the tasks
+            corresponding to each use case.
           </p>
 
           <br></br>
 
           <h3 className="major">Next Steps</h3>
           <p>
+            After testing, I will be better informed to make refinements to the
+            prototypes and create specs for our engineering team to reference
+            during implementation.
+          </p>
+          <p>
             This project is still ongoing, but I’m happy to talk more about it!
           </p>
+
+          <br></br>
+
+          <a href="/projects" className="button primary fit">
+            Back to Projects
+          </a>
+
+          <br></br>
         </div>
       </div>
     </section>

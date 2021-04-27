@@ -20,23 +20,22 @@ const IndexPage = () => (
         <div className="inner">
           <h3 className="major">Summary</h3>
           <p>
-            <i>
-              {config.projects[1].hashtags}
-              <br></br>
-              Tools: Sketch, Abstract
-            </i>
+            <code>{config.projects[1].hashtags}</code>
           </p>
           <p>
-            As part of the central design team responsible for maintaining SAP’s
-            design system, Fiori, I updated the conversational UX guidelines to
-            produce content that’s actionable and easy the navigate.
+            <i>
+              <b>Tools</b>: {config.projects[1].tools}
+            </i>
           </p>
+          <p>{config.projects[1].summary}</p>
+
+          <br></br>
 
           <section className="col-12">
             <article>
-              <a href="/#" className="image fit">
+              <div className="image fit">
                 <img src={pic1} alt="" />
-              </a>
+              </div>
               <p>
                 <i>Left: Old CUX site menu. Right: New CUX site menu.</i>
               </p>
@@ -51,12 +50,19 @@ const IndexPage = () => (
             conversational products. Its guidelines provide resources and tools
             to design conversational products for business applications.
           </p>
+
+          <br></br>
+
+          <h3 className="major">Define</h3>
           <p>
             The guidelines contained a lot of information that, at first glance,
             may seem overwhelming for someone who is interested in creating
-            conversational experiences for enterprise. I took on the task to
-            update and streamline the contents of the guidelines and present
-            them in a way that can be easily found and understood.
+            conversational experiences for enterprise.
+          </p>
+          <p>
+            I took on the task to update and streamline the contents of the
+            guidelines and present them in a way that can be easily found and
+            understood.
           </p>
 
           <br></br>
@@ -70,7 +76,6 @@ const IndexPage = () => (
             and drew similarities in how different guideline sites organized
             their information to enable digestibility of information.
           </p>
-
           <p>
             I also gathered inspiration from various digital assistants in
             today’s market—both consumer- and enterprise-facing—and how they
@@ -79,7 +84,7 @@ const IndexPage = () => (
 
           <br></br>
 
-          <h3 className="major">User Research</h3>
+          <h3 className="major">Empathize</h3>
           <p>
             After gathering background knowledge in conversation design, I
             proceeded to conduct card sorting and hierarchy studies to
@@ -89,13 +94,17 @@ const IndexPage = () => (
 
           <br></br>
 
-          <h3 className="major">Design</h3>
+          <h3 className="major">Ideate</h3>
           <p>
             After the hierarchy studies, I brainstormed with my team an improved
             sitemap hierarchy with topics that were directly informed by the
             research results and organized in a way that our audience can easily
             navigate. It included some old and some new topics.
           </p>
+
+          <br></br>
+
+          <h3 className="major">Write</h3>
           <p>
             The rest of the work was to update existing topics that we aimed to
             keep in the improved site, create new ones based on the research
@@ -111,11 +120,21 @@ const IndexPage = () => (
             So, the next steps are to share the site articles internally and
             gather feedback on content and overall digestibility from people in
             various roles within conversation design—designers, product
-            managers, developers, UA, etc. The goal is to assess whether the
-            revised topics contain content that our audiences can find and
-            absorb easily in order to better create conversational
-            experiences—no more, no less.
+            managers, developers, UA, etc.
           </p>
+          <p>
+            The goal is to assess whether the revised topics contain content
+            that our audiences can find and absorb easily in order to better
+            create conversational experiences—no more, no less.
+          </p>
+
+          <br></br>
+
+          <a href="/projects" className="button primary fit">
+            Back to Projects
+          </a>
+
+          <br></br>
         </div>
       </div>
     </section>
