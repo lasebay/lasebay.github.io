@@ -38,11 +38,13 @@ module.exports = {
       icon: 'fa-linkedin',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/lase-bayudan/',
+      handle: 'lase-bayudan',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
       url: 'mailto:lasbay@gmail.com',
+      handle: 'lasbay@gmail.com',
     },
     // {
     //   icon: 'fa-phone',
@@ -53,6 +55,7 @@ module.exports = {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/lasebay/',
+      handle: 'lasebay',
     },
     // {
     //   icon: 'fa-home',

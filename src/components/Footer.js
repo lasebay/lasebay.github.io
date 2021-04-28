@@ -34,10 +34,14 @@ export default function Footer() {
         </form> */}
         <ul className="contact">
           {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
+            const { icon, name, url, handle } = social;
+            return name == 'Email' ? (
               <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
+                <a href={url}>{`${handle}`}</a>
+              </li>
+            ) : (
+              <li className={`${icon}`} key={url}>
+                <a href={url}>{`@${handle}`}</a>
               </li>
             );
           })}
