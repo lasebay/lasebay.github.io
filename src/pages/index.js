@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/SSF-Homepage/SSF_Logo.png';
-import pic2 from '../assets/images/CUX-Guidelines/2_Chatbot-AI_R_purple.png';
+import pic2 from '../assets/images/CUX-Guidelines/Chatbot-AI_R_purple.png';
 
 import config from '../../config';
 
