@@ -6,6 +6,9 @@ import pic2 from '../assets/images/CUX-Guidelines/CUX_Homepage.png';
 
 import config from '../../config';
 
+const project0 = config.projects[0];
+const project1 = config.projects[1];
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -31,28 +34,25 @@ const IndexPage = () => (
 
           <section className="features">
             <article>
-              <a href={config.projects[0].url} className="image">
+              <a href={project0.url} className="image">
                 <img src={pic1} alt="" />
               </a>
-              <h3 className="major">SuccessFactors Homepage</h3>
-              <p>
-                <i>#product-design #responsive-web #ios #android</i>
-              </p>
-              <p>Reimagining SuccessFactors Homepage</p>
-              <a href={config.projects[0].url} className="special">
+              <h3 className="major">{project0.name}</h3>
+              <p>{project0.subheading}</p>
+              <p>{project0.hashtags}</p>
+              <a href={project0.url} className="special">
                 Learn more
               </a>
             </article>
+
             <article>
-              <a href={config.projects[1].url} className="image">
+              <a href={project1.url} className="image">
                 <img src={pic2} alt="" />
               </a>
-              <h3 className="major">CUX Guidelines</h3>
-              <p>
-                <i>#product-design #conversational-design #ios</i>
-              </p>
-              <p>Streamlining SAP's Conversational UX Guidelines</p>
-              <a href={config.projects[1].url} className="special">
+              <h3 className="major">{project1.name}</h3>
+              <p>{project1.subheading}</p>
+              <p>{project1.hashtags}</p>
+              <a href={project1.url} className="special">
                 Learn more
               </a>
             </article>

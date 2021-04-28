@@ -14,19 +14,21 @@ module.exports = {
   // projects
   projects: [
     {
-      name: 'ssf-homepage',
+      name: 'SuccessFactors Homepage',
       url: '/projects/ssf-homepage',
       hashtags:
         '#product-design #interaction-design  #inclusive-design  #responsive-web #ios',
       tools: 'Sketch, Abstract, Invision, Zeplin',
+      subheading: 'Reimagining SuccessFactors Homepage',
       summary:
         'As part of the SuccessFactors Homepage team, I simplified the experience for manager users to work through several approvals and other team engagements straight from the Homepage. This project is a work in progress for release later in 2021.',
     },
     {
-      name: 'cux-guidelines',
+      name: 'CUX Guidelines',
       url: '/projects/cux-guidelines',
       hashtags: '#user research #ux-writing #conversational-design #ios',
       tools: 'Mural, Sketch, Abstract',
+      subheading: "Streamlining SAP's Conversational UX Guidelines",
       summary:
         'As part of the central design team responsible for maintaining SAP’s design system Fiori, I updated the conversational UX guidelines to produce content that’s actionable and easy to navigate.',
     },
