@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Lase Bayudan',
-  subHeading: 'UX Designer exploring people, technology, and nature',
+  subHeading: 'UX Designer exploring people, technology, and sustainability',
 
   // projects
   projects: [
@@ -44,11 +44,11 @@ module.exports = {
       name: 'Email',
       url: 'mailto:lasbay@gmail.com',
     },
-    {
-      icon: 'fa-phone',
-      name: 'Mobile',
-      url: 'tel:+6786659903',
-    },
+    // {
+    //   icon: 'fa-phone',
+    //   name: 'Mobile',
+    //   url: 'tel:+6786659903',
+    // },
     {
       icon: 'fa-github',
       name: 'Github',

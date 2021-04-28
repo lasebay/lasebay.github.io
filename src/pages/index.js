@@ -16,6 +16,18 @@ const IndexPage = () => (
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        <ul className="icons">
+          {config.socialLinks.map(social => {
+            const { icon, url, name } = social;
+            return (
+              <li>
+                <a href={url} className={`icon ${icon}`}>
+                  <span className="label">{name}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </section>
 
