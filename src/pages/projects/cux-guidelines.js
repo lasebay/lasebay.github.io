@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import pic1 from '../../assets/images/CUX-Guidelines/1_CUX_old_vs_new.png';
+import pic2 from '../../assets/images/CUX-Guidelines/CUX_Guideline_Sitemap_Analysis.png';
 // import pic5 from '../assets/images/pic05.jpg';
 
 import config from '../../../config';
@@ -31,16 +32,16 @@ const IndexPage = () => (
 
           <br></br>
 
-          <section className="col-12">
-            <article>
-              <div className="image fit">
-                <img src={pic1} alt="" />
-              </div>
-              <p>
-                <i>Left: Old CUX site menu. Right: New CUX site menu.</i>
-              </p>
-            </article>
-          </section>
+          <div className="col-12">
+            <span className="image fit">
+              <img src={pic1} alt="" />
+            </span>
+          </div>
+          <p>
+            <i>
+              <b>Left</b>: Old CUX site menu. <b>Right</b>: New CUX site menu.
+            </i>
+          </p>
 
           <br></br>
 
@@ -68,6 +69,12 @@ const IndexPage = () => (
           <br></br>
 
           <h3 className="major">Background Research</h3>
+          <div className="col-12">
+            <span className="image fit">
+              <img src={pic2} alt="" />
+            </span>
+          </div>
+
           <p>
             I kicked off the project by looking at existing conversational UX
             guidelines, both internal and external, to get a sense of key topics
@@ -89,7 +96,7 @@ const IndexPage = () => (
             After gathering background knowledge in conversation design, I
             proceeded to conduct card sorting and hierarchy studies to
             understand how our audience understands the information we currently
-            have and what they expect to take away from our improved guidelines.
+            have and what they hope to take away from our improved guidelines.
           </p>
 
           <br></br>

@@ -28,7 +28,7 @@ module.exports = {
       hashtags: '#user research #ux-writing #conversational-design #ios',
       tools: 'Mural, Sketch, Abstract',
       summary:
-        'As part of the central design team responsible for maintaining SAP’s design system Fiori, I updated the conversational UX guidelines to produce content that’s actionable and easy the navigate.',
+        'As part of the central design team responsible for maintaining SAP’s design system Fiori, I updated the conversational UX guidelines to produce content that’s actionable and easy to navigate.',
     },
   ],
 
