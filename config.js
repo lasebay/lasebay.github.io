@@ -35,21 +35,6 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/lasebay/',
-    },
-    // {
-    //   icon: 'fa-twitter',
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/onlyanubhav',
-    // },
-    // {
-    //   icon: 'fa-facebook',
-    //   name: 'Facebook',
-    //   url: 'https://facebook.com/theanubhav',
-    // },
-    {
       icon: 'fa-linkedin',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/lase-bayudan/',
@@ -59,7 +44,22 @@ module.exports = {
       name: 'Email',
       url: 'mailto:lasbay@gmail.com',
     },
+    {
+      icon: 'fa-phone',
+      name: 'Mobile',
+      url: 'tel:+6786659903',
+    },
+    {
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/lasebay/',
+    },
+    // {
+    //   icon: 'fa-home',
+    //   name: 'Address',
+    //   url: 'Atlanta, GA',
+    // },
   ],
-  phone: '+1 (678) 665-9903 (call/text)',
-  address: 'Atlanta, GA',
+  // phone: 'tel:+6786659903',
+  // address: 'Atlanta, GA',
 };
