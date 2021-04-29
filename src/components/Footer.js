@@ -47,10 +47,11 @@ export default function Footer() {
           })}
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
-          <li>
+          {/* <li>&copy; Solid State. All rights reserved.</li> */}
+          <li>Lase Bayudan</li>
+          {/* <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
