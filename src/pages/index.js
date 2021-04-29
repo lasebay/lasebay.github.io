@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/SSF-Homepage/SSF_Logo.png';
 import pic2 from '../assets/images/CUX-Guidelines/Chatbot-AI_R_purple.png';
-import pic3 from '../assets/images/Lase_grad_afterglow.jpg';
+import pic3 from '../assets/images/GT_Logo.png';
 import pic4 from '../assets/images/Grady_cross.png';
 import pic5 from '../assets/images/Fiserv_FDC.png';
 import pica from '../assets/images/pic04.jpg';
