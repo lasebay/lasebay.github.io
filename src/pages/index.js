@@ -4,6 +4,13 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/SSF-Homepage/SSF_Logo.png';
 import pic2 from '../assets/images/CUX-Guidelines/Chatbot-AI_R_purple.png';
+import pic3 from '../assets/images/Lase_grad_afterglow.jpg';
+import pic4 from '../assets/images/Grady_cross.png';
+import pic5 from '../assets/images/Fiserv_FDC.png';
+import pica from '../assets/images/pic04.jpg';
+import picb from '../assets/images/pic05.jpg';
+import picc from '../assets/images/pic06.jpg';
+import picd from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 
@@ -70,26 +77,41 @@ const IndexPage = () => (
         </div>
       </section>
 
-      {/* <section id="three" className="wrapper spotlight style3">
+      <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
+          <a className="image">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+            <h2 className="major">{config.timeline[0].time}</h2>
+            <p>{config.timeline[0].summary}</p>
           </div>
         </div>
-      </section> */}
+      </section>
+
+      <section id="four" className="wrapper alt spotlight style4">
+        <div className="inner">
+          <a className="image">
+            <img src={pic4} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">{config.timeline[1].time}</h2>
+            <p>{config.timeline[1].summary}</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="five" className="wrapper spotlight style5">
+        <div className="inner">
+          <a className="image">
+            <img src={pic5} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">{config.timeline[2].time}</h2>
+            <p>{config.timeline[2].summary}</p>
+          </div>
+        </div>
+      </section>
 
       {/* <section id="four" className="wrapper alt style1">
         <div className="inner">
@@ -103,7 +125,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                <img src={pica} alt="" />
               </a>
               <h3 className="major">Sed feugiat lorem</h3>
               <p>
@@ -116,7 +138,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={picb} alt="" />
               </a>
               <h3 className="major">Nisl placerat</h3>
               <p>
@@ -129,7 +151,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img src={picc} alt="" />
               </a>
               <h3 className="major">Ante fermentum</h3>
               <p>
@@ -142,7 +164,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic7} alt="" />
+                <img src={picd} alt="" />
               </a>
               <h3 className="major">Fusce consequat</h3>
               <p>

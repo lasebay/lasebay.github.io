@@ -11,7 +11,26 @@ module.exports = {
   heading: 'Lase Bayudan',
   subHeading: 'UX Designer exploring people, technology, and sustainability',
 
-  // projects
+  // timeline
+  timeline: [
+    {
+      time: 'Jun 2015 - May 2019',
+      summary:
+        "I received a Bachelor's degree in Computer Science, with a focus on user-centered design and human-computer interaction.",
+    },
+    {
+      time: 'Aug 2017 - May 2019',
+      summary:
+        'As an undergraduate researcher, I led a team in collaboration with Georgia Tech, Grady Memorial Hospital Emergency Department, and the Centers for Disease Control and Prevention (CDC) to research, design, and develop solutions to optimize patient care flow.',
+    },
+    {
+      time: 'Jun 2018 - Aug 2018',
+      summary:
+        'I was a software development intern at First Data (now Fiserv). I developed and demoed Alexa voice experiences to company managers and chief executives.',
+    },
+  ],
+
+  // detailed projects
   projects: [
     {
       name: 'SuccessFactors Homepage',
