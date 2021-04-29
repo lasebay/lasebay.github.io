@@ -16,7 +16,7 @@ module.exports = {
     {
       time: 'Jun 2015 - May 2019',
       summary:
-        "I received a Bachelor's degree in Computer Science, with a focus on user-centered design and human-computer interaction.",
+        "I received a Bachelor's degree in Computer Science from the Georgia Institute of Technology, with a focus on user-centered design and human-computer interaction.",
     },
     {
       time: 'Aug 2017 - May 2019',
