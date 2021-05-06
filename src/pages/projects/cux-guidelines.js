@@ -137,9 +137,18 @@ const IndexPage = () => (
 
           <br></br>
 
-          <a href="/projects" className="button fit">
-            Back to Projects
-          </a>
+          <ul className="actions fit">
+            <li>
+              <a href="/" className="button fit">
+                Go to Timeline
+              </a>
+            </li>
+            <li>
+              <a href="/projects" className="button primary fit">
+                Go to Projects
+              </a>
+            </li>
+          </ul>
 
           <br></br>
         </div>
