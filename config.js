@@ -40,7 +40,7 @@ module.exports = {
       tools: 'Sketch, Abstract, Invision, Zeplin',
       subheading: 'Reimagining SuccessFactors Homepage',
       summary:
-        'As part of the SuccessFactors Homepage team, I simplified the experience for manager users to work through several approvals and other team engagements straight from the Homepage. This project is a work in progress for release later in 2021.',
+        'As part of the SuccessFactors Homepage team, I simplified the experience for manager users to work through several approvals and other team engagements straight from the Homepage. This project is in progress for release later in 2021.',
     },
     {
       name: 'CUX Guidelines',
