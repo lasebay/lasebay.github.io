@@ -21,7 +21,7 @@ module.exports = {
     {
       time: 'Aug 2017 - May 2019',
       summary:
-        'As an undergraduate researcher, I led a team at Georgia Tech in collaboration with Grady Memorial Hospital Emergency Department, and the Centers for Disease Control and Prevention (CDC) to research, design, and develop solutions to optimize patient care flow.',
+        "As an undergraduate researcher, I led a team at Georgia Tech in collaboration with Grady Memorial Hospital's Emergency Department, and the Centers for Disease Control and Prevention (CDC) to research, design, and develop solutions that optimize patient care flow.",
     },
     {
       time: 'Jun 2018 - Aug 2018',
