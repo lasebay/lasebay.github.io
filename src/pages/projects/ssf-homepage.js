@@ -73,9 +73,9 @@ const IndexPage = () => (
           <p>
             Extensive user research had already been done by the team to
             understand the user. And, a solution had already been implemented in
-            the past release, called the "Stack View". So, after reviewing the
-            documentation and the past iterations, I started exploring
-            mobile-first concepts to redesign this "Stack View".
+            the past release. So, after reviewing the documentation and the past
+            iterations, I started exploring mobile-first concepts to redesign
+            this solution.
           </p>
 
           <br></br>
@@ -107,7 +107,7 @@ const IndexPage = () => (
                 a bulk approval).
               </li>
               <li>
-                Users prefer to be able to select the card itself for more
+                Users prefer to be able to select an item itself for more
                 details, instead of a relatively ambiguous icon.
               </li>
             </ul>
