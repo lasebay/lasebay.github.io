@@ -72,8 +72,10 @@ const IndexPage = () => (
           <h3 className="major">Ideate</h3>
           <p>
             Extensive user research had already been done by the team to
-            understand the user. After reviewing the documentation and the past
-            release, I started exploring mobile-first concepts.
+            understand the user. And, a solution had already been implemented in
+            the past release, called the "Stack View". So, after reviewing the
+            documentation and the past iterations, I started exploring
+            mobile-first concepts to redesign this "Stack View".
           </p>
 
           <br></br>
@@ -89,17 +91,36 @@ const IndexPage = () => (
 
           <h3 className="major">Test</h3>
           <p>
-            Now, I’m ready to test the prototypes with some users. I’m currently
-            running usability tests to assess how users accomplish the tasks
+            I ran quick usability tests of the mobile web prototype with a small
+            set of users. The tests assessed how users accomplish tasks
             corresponding to each use case.
+          </p>
+          <p>
+            Overall remarks suggest the following:
+            <ul>
+              <li>
+                Users prefer a more intuitive way to toggle between views (e.g.,
+                icon placement, visual hierarchy).
+              </li>
+              <li>
+                Users prefer more feedback of bigger actions taken (e.g., after
+                a bulk approval).
+              </li>
+              <li>
+                Users prefer to be able to select the card itself for more
+                details, instead of a relatively ambiguous icon.
+              </li>
+            </ul>
           </p>
 
           <br></br>
 
-          <h3 className="major">Next Steps</h3>
+          <h3 className="major">Specs Creation</h3>
           <p>
-            After testing, I will be better informed to make refinements to the
-            prototypes and create specs for our engineering team to reference
+            After testing, I used the usability test results to directly inform
+            design refinements, and followed up with Accessibilty and
+            Engineering to ensure these refinements do not pose any issues. I'm
+            currently finalizing the specs for our engineering team to reference
             during implementation.
           </p>
           <p>
